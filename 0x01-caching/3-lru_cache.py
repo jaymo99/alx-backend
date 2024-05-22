@@ -6,7 +6,8 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LRUCache(BaseCaching):
-    """Basic caching using a dictionary
+    """LRU caching using a dictionary.
+    Least Recently Used.
     """
 
     def __init__(self):

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-3-lru_cache module
+4-mru_cache module
 """
 BaseCaching = __import__('base_caching').BaseCaching
 
 
 class MRUCache(BaseCaching):
-    """Basic caching using a dictionary
+    """MRU caching using a dictionary.
+    Most Recently Used.
     """
 
     def __init__(self):
