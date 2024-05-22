@@ -6,7 +6,7 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 
 class FIFOCache(BaseCaching):
-    """Basic caching using a dictionary
+    """FIFO caching using a dictionary
     """
 
     def __init__(self):
